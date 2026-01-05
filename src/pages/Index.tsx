@@ -36,12 +36,6 @@ const Index = () => {
 
   const handleNotify = () => {
     console.log("🎂 THÔNG BÁO: Video đã xem xong! Mang bánh kem vào!");
-    
-    toast({
-      title: "🎉 Đã hoàn thành!",
-      description: "Bé Én ơi, anh ấy đã xem xong video rồi! Mang bánh kem vào thôi! 🎂",
-      duration: 10000,
-    });
   };
 
   return (

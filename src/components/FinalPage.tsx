@@ -227,9 +227,6 @@ const FinalPage = ({ onNotify }: FinalPageProps) => {
                   <motion.div animate={{ rotate: [0, 20, 0] }} transition={{ duration: 0.5, repeat: Infinity }}>
                     <PartyPopper className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
                   </motion.div>
-                  <span className="font-quicksand font-medium text-xs sm:text-sm md:text-base text-center">
-                    Đã thông báo cho bé Én rồi nha! Đợi tí...
-                  </span>
                   <motion.div animate={{ rotate: [0, -20, 0] }} transition={{ duration: 0.5, repeat: Infinity }}>
                     <Cake className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
                   </motion.div>
